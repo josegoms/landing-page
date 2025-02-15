@@ -12,6 +12,7 @@
     align-items: center;
     background-color: #1F2937;
     font-family: Roboto;
+    padding: 5px;
 }
 
 .logo {
@@ -31,4 +32,49 @@ a {
     text-decoration: none;
     color: #E5E7EB;
     margin: 10px;
+}
+
+.first-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 180px;
+    font-family: Roboto;
+    gap: 20px;
+}
+
+.main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color:#E5E7EB;
+    font-size: 18px;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 15px;
+}
+
+img {
+    height: 400px;
+    width: auto;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #1F2937;
+    font-family: Roboto;
+    gap: 20px;
 }
