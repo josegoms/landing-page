@@ -174,3 +174,17 @@ img {
 .button {
     border: 2px solid #E5E7EB;
 }
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.copyright {
+    color: #E5E7EB;
+    font-family: Roboto;
+    font-size: 18px;
+}
