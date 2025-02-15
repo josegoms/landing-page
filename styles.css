@@ -120,3 +120,26 @@ img {
 .text {
     text-align: center;
 }
+
+.third-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 180px;
+    gap: 5px;
+}
+
+.quote {
+    font-size: 36px;
+    font-family: light italic;
+    color: #1F2937;
+}
+
+.third-container .author {
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 900;
+    display: flex;
+    justify-content: flex-end;
+}
