@@ -78,3 +78,8 @@ img {
     font-family: Roboto;
     gap: 20px;
 }
+
+.second-container {
+    width: 890px;
+    height: 1038px;
+}
