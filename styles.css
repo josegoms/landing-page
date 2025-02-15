@@ -80,6 +80,43 @@ img {
 }
 
 .second-container {
-    width: 890px;
-    height: 1038px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+    font-family: Roboto;
+    gap: 20px;
+}
+
+.info {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.square {
+    border: 5px solid #3882F6;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.dumb-1, .dumb-2, .dumb-3, .dumb-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.text {
+    text-align: center;
 }
